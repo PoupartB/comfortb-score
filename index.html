@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Échelle COMFORT-B – Score</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1 id="scaleName">Échelle COMFORT-B</h1>
+      <p class="subtitle" id="scaleDesc"></p>
+    </header>
+
+    <section class="card">
+      <div class="scoreRow">
+        <div>
+          <div class="label">Score total</div>
+          <div class="score" id="totalScore">0</div>
+        </div>
+        <div class="actions">
+          <button id="resetBtn" type="button">Réinitialiser</button>
+          <button id="copyBtn" type="button">Copier le résumé</button>
+        </div>
+      </div>
+      <div class="hint" id="scoreHint"></div>
+    </section>
+
+    <form id="scaleForm" class="grid"></form>
+
+    <footer class="footer">
+      <small>Échelle COMFORT-B – enfant sédaté. Outil d’aide, ne remplace pas le jugement clinique.</small>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
